@@ -1,0 +1,35 @@
+:root {
+    --green: #0f0;
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    background-color: var(--black);
+}
+
+body {
+    font-family: monospace;
+    color: var(--white)
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: arial;
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+}
