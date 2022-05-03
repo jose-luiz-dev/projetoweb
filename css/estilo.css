@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --green: #0f0;
     --white: #fff;
     --black: #000;
@@ -32,4 +32,28 @@ li {
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--white);
+} */
+
+.fundo {
+    background-color: #a37e59;
+   }
+
+   .full-page {
+    min-height: calc(100vh - 2px)
 }
+
+.textura {
+    background-image: url("../img/textura.png");
+    background-color: #cccccc; 
+}
+
+.textura-papel {
+    background-image: url("../img/textura-papel.png");
+    background-color: #cccccc; 
+}
+
+.sombra {
+    border: 0px solid;
+    box-shadow: 5px 0px 5px 0px #666a;
+    z-index: 9999;
+  }
