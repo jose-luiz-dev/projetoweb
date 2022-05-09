@@ -18,45 +18,51 @@
 <body class="text-center fundo">
     <main class="container-fluid">
         <div class="row rounded-3 bg-light">
-        <div class="col-sm-7 col-lg-8 col-xl-7 p-5 textura-papel text-end text-secondary">
-            <p class="display-4 fw-bold">Bem-vindo</p>
-            <p class="display-1">Programação Web</p>
-        </div>
-        <div class="col-sm-5 col-lg-4 col-xl-3 p-5 full-page sombra">
-        <form>
-            <img class="" src="./img/logo.png" alt="" width="100">
-            <h1 class="text-secondary mb-5 display-2">Login</h1>
-
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                <label for="floatingInput">Usuário</label>
+            <div class="col-sm-7 col-lg-8 col-xl-7 p-5 textura-papel text-end text-secondary">
+                <p class="display-4 fw-bold">Bem-vindo</p>
+                <p class="display-1">Programação Web</p>
             </div>
-            <div class="form-floating mb-2">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                <label for="floatingPassword">Senha</label>
-            </div>
+            <div class="col-sm-5 col-lg-4 col-xl-3 p-5 full-page sombra">
+                <form>
+                    <img class="" src="./img/logo.png" alt="" width="100">
+                    <h1 class="text-secondary mb-5 display-2">Login</h1>
 
-            <div class="row p-2">
-            <div class="col-sm-12 col-lg-6 mb-4 text-start">
-                <!-- <label>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Usuário</label>
+                    </div>
+                    <div class="form-floating mb-2">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Senha</label>
+                    </div>
+                    <div id="msgAlert" class="alert alert-danger alert-dismissible fade show mt-3" role="alert">
+                        Usuario ou Senha <strong>incorreta!</strong>
+                        
+                    </div>
+
+                    <div class="row p-2">
+                        <div class="col-sm-12 col-lg-6 mb-4 text-start">
+                            <!-- <label>
                     <input type="checkbox" value="remember-me"> Lembre-me
                 </label> -->
-            </div>
-            <div class="col-sm-12 col-lg-6 mb-5 text-end">
-                <a href="" id="esqueci" onclick="esqueci()">esqueci a senha</a>
-                </div>
-            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6 mb-5 text-end">
+                            <a href="" id="esqueci" onclick="esqueci()">esqueci a senha</a>
+                        </div>
+                    </div>
 
-            <button class="w-100 btn btn-lg btn-primary" type="submit" id="entrare" onclick="entrar()">Entrar</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2022</p> 
-        </form>
-    </div>
-    <div class="col-xl-2 fundo textura"></div> 
-</div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit" id="entrare"
+                        onclick="entrar()">Entrar</button>
+                    <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+                </form>
+            </div>
+            <div class="col-xl-2 fundo textura"></div>
+        </div>
     </main>
 
 
     <script src="./js/login.js"></script>
+    <script src="./js/bootstrap.js"></script>
 </body>
 
 </html>

@@ -13,5 +13,5 @@ function initIndex(){
 
 function sair(){
     localStorage.setItem("sessionPW", null);
-    window.location.href="./login";
+    window.location.href="./login.html";
 }
