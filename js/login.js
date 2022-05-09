@@ -10,7 +10,7 @@ document.getElementById("entrare").addEventListener("click", function(event){
 function init() {
     document.getElementById('msgAlert').style.display = 'none'
     localStorage.setItem("sessionPW", null);
-    localStorage.setItem("user", "username");
+    localStorage.setItem("user", "Usuario");
     localStorage.setItem("pass", "password");
 }
 
